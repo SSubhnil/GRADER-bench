@@ -8,7 +8,7 @@ LastEditTime: 2022-12-28 12:35:02
     Modified from https://github.com/gouxiangchen/ac-ppo
 '''
 
-import gym
+import gymnasium as gym
 import torch
 import torch.nn as nn
 from torch.distributions import Normal

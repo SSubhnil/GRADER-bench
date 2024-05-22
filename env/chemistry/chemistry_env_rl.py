@@ -9,9 +9,9 @@ from dataclasses import dataclass
 import torch
 import torch.nn as nn
 
-import gym
-from gym import spaces
-from gym.utils import seeding
+import gymnasium as gym
+from gymnasium import spaces
+from gymnasium.utils import seeding
 
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
